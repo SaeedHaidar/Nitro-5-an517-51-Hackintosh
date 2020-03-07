@@ -25,6 +25,6 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 #### USBmap
 #### touchpad
 #### Sleep
-#### OpenCore
+#### OpenCore Bootloader
 
 
