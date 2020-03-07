@@ -27,4 +27,4 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 #### Sleep
 #### OpenCore
 
-_if anyone fixed one any of this issues i would be happy if you share it with us_
+if anyone fixed one any of this issues i would be happy if you share it with us
