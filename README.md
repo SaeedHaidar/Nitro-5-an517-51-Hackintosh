@@ -18,7 +18,7 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 * Security → Set supervisor password (to disable secure boot)
 * Security → Password on boot → Disable
 * Boot → Secure Boot → Disable
-* Main → press on calt+s a new setting will appear to change SATA type to AHCI otherwise you will not be able to see you drive when installing  hackintosh
+* Main → press (calt+s) a new setting will appear to change SATA type to AHCI otherwise you will not be able to see you drive when installing  hackintosh
  
 # WIP
 
