@@ -27,4 +27,4 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 #### Sleep
 #### OpenCore Bootloader
 
-## do not forget to generate new serial number and uuid with clover configurator
+## Do not forget to generate new serial number and uuid with clover configurator
