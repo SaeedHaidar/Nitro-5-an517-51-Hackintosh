@@ -4,7 +4,7 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 
 ##### What's Working...
 
-* ACPI Display brightness with hot keys (Fn(F11+F12))
+* ACPI Display brightness with hot keys (Fn+(F11,F12))
 * Fully Functional QE/CI Enabled Graphics
 * iGPU with disabled dGPU
 * Audio & headphone jack
