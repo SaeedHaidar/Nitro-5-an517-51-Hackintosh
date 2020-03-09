@@ -10,6 +10,7 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 * iGPU with disabled dGPU
 * Audio & headphone jack
 * Battery Management
+* All USB ports
 * Ethernet
 * WebCam
 
@@ -22,7 +23,7 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
  
 # WIP
 
-#### USBmap
+#### USBmap to have better speed 
 #### touchpad
 #### Sleep
 #### OpenCore Bootloader
