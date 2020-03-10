@@ -34,6 +34,6 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 # Not Working
 #### touchpad (i will not be able to make it work caus it needs a lot of work )
 # Important info 
-#### when you switch SATA type to AHCI you might not be able to boot to windows again but do not worry here is a guide i found to switch https://support.thinkcritical.com/kb/articles/switch-windows-10-from-raid-ide-to-ahci
+#### when you switch SATA type to AHCI you might not be able to boot to windows again but do not worry here is a guide i found to switch without any issue https://support.thinkcritical.com/kb/articles/switch-windows-10-from-raid-ide-to-ahci
 
 ## Do not forget to generate new serial number and uuid with clover configurator
