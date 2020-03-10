@@ -1,4 +1,5 @@
 ## Nitro-5-an517-51-Hackintosh
+# Files are always updated
 
 Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x and 10.13.x)**
 
