@@ -10,6 +10,7 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 ##### What's Working...
 * Power Managment is very stable most of the time cpu Fan will not load but it depends on what you are doing
 * Display brightness with hot keys (Fn+(F11,F12))
+* Sleep (only when you close your laptop)
 * Fully Functional QE/CI Enabled Graphics
 * FaceTime, Messages, etc...
 * iGPU with disabled dGPU
@@ -18,7 +19,7 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 * All USB ports
 * Ethernet
 * WebCam
-* Sleep (only when you close your laptop)
+
 
 ##### BIOS Settings
 
