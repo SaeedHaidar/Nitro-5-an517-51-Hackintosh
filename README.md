@@ -30,7 +30,6 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 # WIP
 
 #### USBmap to have better speed 
-#### Sleep
 #### OpenCore Bootloader
 # Not Working
 #### touchpad (i will not be able to make it work caus it needs a lot of work )
