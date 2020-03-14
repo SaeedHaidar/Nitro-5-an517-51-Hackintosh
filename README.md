@@ -18,6 +18,7 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 * Battery Management
 * All USB ports
 * Ethernet
+* Sidecar
 * WebCam
 
 
