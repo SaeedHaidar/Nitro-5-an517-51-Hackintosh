@@ -17,9 +17,10 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 * Audio & headphone jack
 * Battery Management
 * All USB ports
+* WebCam
 * Ethernet
 * Sidecar
-* WebCam
+
 
 
 ##### BIOS Settings
