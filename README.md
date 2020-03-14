@@ -21,8 +21,9 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 * Ethernet
 * Sidecar
 
-
-
+##### Disabled Devices
+* Bluetooth
+* GTX 1660Ti
 ##### BIOS Settings
 
 * Security → Set supervisor password (to disable secure boot)
