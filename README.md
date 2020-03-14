@@ -29,8 +29,7 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 * Main → click on (calt+s) a new setting will appear to change SATA type to AHCI otherwise you will not be able to see you drive when installing  hackintosh
  
 # WIP
-
-#### USBmap to have better speed 
+ 
 #### OpenCore Bootloader
 
 # Not Working
