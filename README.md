@@ -34,7 +34,7 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 
 # Not Working
 ####  Touchpad (i will not be able to make it work caus it needs a lot of work )
-####  WiFi/Bluetooth
+####  intel WiFi/Bluetooth not supported
 # Important info 
 #### when you switch SATA type to AHCI you might not be able to boot to windows again but do not worry here is a guide i found to switch without any issue https://support.thinkcritical.com/kb/articles/switch-windows-10-from-raid-ide-to-ahci
 
