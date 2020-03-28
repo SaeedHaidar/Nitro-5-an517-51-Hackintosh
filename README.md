@@ -19,7 +19,8 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 * WebCam
 * Ethernet
 * Sidecar
-* Sleep sometimes work
+* Sleep (https://fewtarius.gitbook.io/laptopguide/battery-power-management/correcting-sleep-problems)
+
 
 ##### Disabled Devices
 * Bluetooth
