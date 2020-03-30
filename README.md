@@ -32,9 +32,9 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 * Main → click on (calt+s) a new setting will appear to change SATA type to AHCI otherwise you will not be able to see you drive when installing  hackintosh
  # WIP
  #### CPU undervoltage 
-
+ ####  Touchpad 
+ 
 # Not Working
-####  Touchpad (i will not be able to fix it because it needs a lot of work )
 ####  intel WiFi/Bluetooth not supported
 # Important info 
 #### when you switch SATA type to AHCI you might not be able to boot to windows again but do not worry here is a guide i found to switch without any issue https://support.thinkcritical.com/kb/articles/switch-windows-10-from-raid-ide-to-ahci
