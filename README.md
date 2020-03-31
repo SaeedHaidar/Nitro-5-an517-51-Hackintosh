@@ -1,6 +1,6 @@
 ## Nitro-5-an517-51-Hackintosh
 
-![](/images/main.png)
+![](/images/main1.png)
 ![](/images/File1.png)
 ![](/images/File2.png)
 # Files are always updated
