@@ -17,9 +17,9 @@
 			
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-NoHybGfx.aml</string>
+				<string>SSDT-BL.aml</string>
 				<key>Path</key>
-				<string>SSDT-NoHybGfx.aml</string>
+				<string>SSDT-BL.aml</string>
 				<key>Enabled</key>
 				<true/>
 			</dict>
