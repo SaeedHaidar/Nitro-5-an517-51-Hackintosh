@@ -193,8 +193,6 @@
 			<true/>
 			<key>SetupVirtualMap</key>
 			<true/>
-			<key>ShrinkMemoryMap</key>
-			<false/>
 			<key>SignalAppleOS</key>
 			<false/>
 		</dict>
@@ -776,7 +774,7 @@
 			<string>ApfsDriverLoader.efi</string>
 			<string>FwRuntimeServices.efi</string>
 			<string>VBoxHfs.efi</string>
-			<string>VirtualSmc.efi</string>
+			
 		</array>
 		<key>Audio</key>
 		<dict>
@@ -873,7 +871,7 @@
 			<key>IgnoreInvalidFlexRatio</key>
 			<false/>
 			<key>ReleaseUsbOwnership</key>
-			<true/>
+			<false/>
 			<key>RequestBootVarFallback</key>
 			<true/>
 			<key>RequestBootVarRouting</key>
