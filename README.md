@@ -39,4 +39,9 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 #### when you switch SATA type to AHCI you might not be able to boot to windows again but do not worry here is a guide i found to switch without any issue https://support.thinkcritical.com/kb/articles/switch-windows-10-from-raid-ide-to-ahci
 
 ## Do not forget to generate new Smbios with clover configurator and for OC use GenSMBIOS (MacBook pro 16,1)
-
+## &#x1F34F;  UPDATES:
+#### OpenCore 0.5.7
+#### OC-Config.plist
+#### Clover 5108
+#### Kexts
+#### Add Theme to OpenCore
