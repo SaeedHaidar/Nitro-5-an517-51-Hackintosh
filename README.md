@@ -45,7 +45,7 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 * OC-Config.plist
 * OpenCore 0.5.7
 * Clover 5108
-* New Add and getting better Performance :
+* New Adds to get better Performance :
 * SSDT-DMAC
 * SSDT-SBUS
 * SSDT-XSPI
