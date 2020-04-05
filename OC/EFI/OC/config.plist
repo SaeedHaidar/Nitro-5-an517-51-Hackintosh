@@ -425,6 +425,20 @@
 				<key>BundlePath</key>
 				<string>WhateverGreen.kext</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>MatchKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/SystemProfilerMemoryFixup</string>
+				<key>BundlePath</key>
+				<string>SystemProfilerMemoryFixup.kext</string>
+			</dict>
 		</array>
 		<key>Block</key>
 		<array/>
