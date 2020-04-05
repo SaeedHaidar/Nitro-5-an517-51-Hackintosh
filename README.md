@@ -40,7 +40,7 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 
 ## Do not forget to generate new Smbios with clover configurator and for OC use GenSMBIOS (MacBook pro 16,1)
 ## &#x1F34F;  UPDATES 05.04.2020:
-* Add SystemProfilerMemoryFixup.kext
+* Add SystemProfilerMemoryFixup.kext to show memory section in about this Mac
 * Add Theme to OpenCore Bootloader
 * OC-Config.plist
 * OpenCore 0.5.7
