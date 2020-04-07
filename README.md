@@ -42,7 +42,7 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 
 ## Do not forget to generate new Smbios with clover configurator and for OC use GenSMBIOS (MacBook pro 16,1)
 ## &#x1F34F;  UPDATES 07.04.2020-OpenCore:
-* better way to enable Apple ALC to be Like native Mac
+* better way to enable Apple ALC
 * CPUFriend-1.2.0-DevBuild
 * WhateverGreen-1.3.8
 * Resources Folder
