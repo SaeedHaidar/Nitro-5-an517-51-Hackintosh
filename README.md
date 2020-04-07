@@ -37,6 +37,8 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 ####  intel WiFi/Bluetooth not supported
 # Important info 
 #### when you switch SATA type to AHCI you might not be able to boot to windows again but do not worry here is a guide i found to switch without any issue https://support.thinkcritical.com/kb/articles/switch-windows-10-from-raid-ide-to-ahci
+#### Opencore Guide https://1revenger1.gitbook.io/laptop-guide/
+#### Clover Guide https://fewtarius.gitbook.io/laptopguide/
 
 ## Do not forget to generate new Smbios with clover configurator and for OC use GenSMBIOS (MacBook pro 16,1)
 ## &#x1F34F;  UPDATES 07.04.2020-OpenCore:
@@ -67,6 +69,7 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 * SSDT-SBUS-MCHC
 * SSDT-HPET.aml
 * SSDT-EC-USBX.aml
+
 
 
 
