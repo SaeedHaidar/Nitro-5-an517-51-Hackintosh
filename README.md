@@ -43,6 +43,11 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 #### Clover Guide https://fewtarius.gitbook.io/laptopguide/
 
 ## Do not forget to generate new Smbios with clover configurator and for OC use GenSMBIOS (MacBook pro 16,1)
+## &#x1F34F;  UPDATES 10.04.2020-OpenCore:
+* TouchPad has been fixed 
+* OC-Config.plist
+* ACPI Patches
+
 ## &#x1F34F;  UPDATES 07.04.2020-OpenCore:
 * better way to enable Apple ALC
 * CPUFriend-1.2.0-DevBuild
