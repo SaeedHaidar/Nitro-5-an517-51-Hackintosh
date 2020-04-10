@@ -20,6 +20,7 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 * WebCam
 * Ethernet
 * Sidecar
+* TouchPad Finally after month of trying 
 
 ##### Disabled Devices
 * Bluetooth
@@ -31,7 +32,7 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 * Boot → Secure Boot → Disable
 * Main → click on (calt+s) a new setting will appear to change SATA type to AHCI otherwise you will not be able to see you drive when installing  hackintosh
  # WIP
- ####  Touchpad 
+ ####  Bios Unlock 
  
 # Not Working
 ####  intel WiFi/Bluetooth not supported
