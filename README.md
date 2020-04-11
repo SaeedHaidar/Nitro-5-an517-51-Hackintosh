@@ -78,6 +78,8 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 * SSDT-HPET.aml
 * SSDT-EC-USBX.aml
 
+## Bios Version :
+1.28 https://www.acer.com/ac/en/US/content/support-product/7966?b=1
 
 
 
