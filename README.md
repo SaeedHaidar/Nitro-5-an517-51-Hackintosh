@@ -47,7 +47,7 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 
 ## Do not forget to generate new Smbios with clover configurator and for OC use GenSMBIOS (MacBook pro 16,1)
 ## &#x1F34F;  UPDATES 11.04.2020-OpenCore
-* Replace DSDT.aml with SSDT-BRKEY and SSDT-I2C-TPAD caus placing DSDT.aml will cause conflict with other patches
+* Replace DSDT.aml with SSDT-BRKEY and SSDT-I2C-TPAD because placing DSDT.aml will cause conflict with other patches
 * Add NVMeFix.kext to get better power managment for ssd
 * OC-Config.plist
 
