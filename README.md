@@ -33,7 +33,8 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 * Boot → Secure Boot → Disable
 * Main → click on (calt+s) a new setting will appear to change SATA type to AHCI otherwise you will not be able to see you drive when installing  hackintosh
  # WIP
- ####  Bios Unlock to unlock CFG and have full control over your laptop  https://www.amazon.de/-/en/gp/product/B07SNTL5V6/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1 
+ ####  Bios Unlock to unlock CFG and have full control over your laptop
+ https://www.amazon.de/-/en/gp/product/B07SNTL5V6/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1 
  #### Wifi card replacment 
  https://www.amazon.de/-/en/gp/product/B081H6KZL8/ref=ppx_yo_dt_b_asin_image_o00_s00?ie=UTF8&psc=1
  
