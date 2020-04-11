@@ -72,7 +72,7 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 * SSDT-SBUS
 * SSDT-XSPI
 * SSDT-MCHC
-* SSDT-PMCR
+* SSDT-PMC
 * SSDT-MEM2
 * SSDT-PPMC
 * SSDT-SBUS-MCHC
