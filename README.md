@@ -43,13 +43,13 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 #### Clover Guide https://fewtarius.gitbook.io/laptopguide/
 
 ## Do not forget to generate new Smbios with clover configurator and for OC use GenSMBIOS (MacBook pro 16,1)
-## &#x1F34F;  UPDATES 10.04.2020-OpenCore:
+## &#x1F34F;  UPDATES 10.04.2020-OpenCore
 * Brightness with native hot keys
 * TouchPad has been fixed 
 * OC-Config.plist
 * ACPI Patches
 
-## &#x1F34F;  UPDATES 07.04.2020-OpenCore:
+## &#x1F34F;  UPDATES 07.04.2020-OpenCore
 * better way to enable Apple ALC
 * CPUFriend-1.2.0-DevBuild
 * WhateverGreen-1.3.8
@@ -60,7 +60,7 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 * Lilu-1.4.3
 
 
-## &#x1F34F;  UPDATES 05.04.2020:
+## &#x1F34F;  UPDATES 05.04.2020
 * Add SystemProfilerMemoryFixup.kext to show memory section in about this Mac
 * Add Theme to OpenCore Bootloader
 * OC-Config.plist
@@ -78,7 +78,7 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 * SSDT-HPET.aml
 * SSDT-EC-USBX.aml
 
-## Bios Version :
+## Bios Version 
 1.28 https://www.acer.com/ac/en/US/content/support-product/7966?b=1
 
 
