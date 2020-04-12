@@ -40,7 +40,7 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
  
 # Not Working
 ####  intel WiFi/Bluetooth not supported
-####  HDMI (Nvdia Optimus is hardwire to HDMI)
+####  HDMI (Nvidia Optimus is hardwire to HDMI)
 # Important info 
 #### when you switch SATA type to AHCI you might not be able to boot to windows again but do not worry here is a guide i found to switch without getting any issue https://support.thinkcritical.com/kb/articles/switch-windows-10-from-raid-ide-to-ahci
 #### OpenCore Guide https://1revenger1.gitbook.io/laptop-guide/
