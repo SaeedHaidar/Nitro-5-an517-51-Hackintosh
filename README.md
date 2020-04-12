@@ -49,6 +49,7 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 ## Do not forget to generate new Smbios with clover configurator and for OC use GenSMBIOS (MacBook pro 16,1)
 ## &#x1F34F;  UPDATES 12.04.2020-OpenCore
 * Fix an issue when usb is pluged-in the laptop will not sleep with SSDT-GPRW 
+* OC-Config.plist
 
 ## &#x1F34F;  UPDATES 11.04.2020-OpenCore
 * Replace DSDT with SSDT-BRKEY and SSDT-I2C-TPAD because placing DSDT will cause conflict with other patches
