@@ -88,9 +88,9 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-NoHybGfx.aml</string>
+				<string>SSDT-NDGP_OFF.aml</string>
 				<key>Path</key>
-				<string>SSDT-NoHybGfx.aml</string>
+				<string>SSDT-NDGP_OFF.aml</string>
 				<key>Enabled</key>
 				<true/>
 			</dict>
