@@ -152,14 +152,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-XCPM.aml</string>
-				<key>Path</key>
-				<string>SSDT-XCPM.aml</string>
-				<key>Enabled</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>SSDT-XOSI.aml</string>
 				<key>Path</key>
 				<string>SSDT-XOSI.aml</string>
