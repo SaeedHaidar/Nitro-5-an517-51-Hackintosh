@@ -10,7 +10,7 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 ##### What's Working...
 * Sleep (https://fewtarius.gitbook.io/laptopguide/battery-power-management/correcting-sleep-problems) (Disabling Hibernation)
 * Power Managment is very stable most of the time cpu Fan will not load but it depends on what you are doing
-* TouchPad Finally after month of researching
+* TouchPad + all gestures Finally after month of researching
 * Fully Functional QE/CI Enabled Graphics
 * Display brightness with hot keys
 * FaceTime, Messages, etc...
