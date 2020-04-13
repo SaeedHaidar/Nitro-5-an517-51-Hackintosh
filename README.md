@@ -54,7 +54,7 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 
 ## &#x1F34F;  UPDATES 11.04.2020-OpenCore
 * Replace DSDT with SSDT-BRKEY and SSDT-I2C-TPAD because placing DSDT will cause conflict with other patches
-* Add NVMeFix.kext to get better power managment for ssd
+* Add NVMeFix.kext to get better power managment for NVme
 * OC-Config.plist
 
 ## &#x1F34F;  UPDATES 10.04.2020-OpenCore
