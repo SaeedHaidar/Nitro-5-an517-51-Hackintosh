@@ -72,6 +72,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>SSDT-USBX.aml</string>
+				<key>Path</key>
+				<string>SSDT-USBX.aml</string>
+				<key>Enabled</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>SSDT-MEM2.aml</string>
 				<key>Path</key>
 				<string>SSDT-MEM2.aml</string>

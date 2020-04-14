@@ -47,6 +47,8 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 #### Clover Guide https://fewtarius.gitbook.io/laptopguide/
 
 ## Do not forget to generate new Smbios with clover configurator and for OC use GenSMBIOS (MacBook pro 16,1)
+## &#x1F34F;  UPDATES 14.04.2020-OpenCore
+* Add SSDT-USBX.aml for USB-Power
 ## &#x1F34F;  UPDATES 12.04.2020-OpenCore
 * Fix an issue when usb is pluged-in the laptop will not sleep with SSDT-GPRW 
 * Replace SSDT-NoHybGfx with SSDT-NDGP_OFF to make sleep faster 
