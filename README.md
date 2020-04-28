@@ -8,7 +8,7 @@
 Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x and 10.13.x)**
 
 ##### What's Working...
-* Sleep (https://fewtarius.gitbook.io/laptopguide/battery-power-management/correcting-sleep-problems) (Disabling Hibernation)
+* Sleep (https://laptop.dortania.ml/battery-power-management/correcting-sleep-problems.html) (Disabling Hibernation)
 * Power Managment is very stable most of the time cpu Fan will not load but it depends on what you are doing
 * TouchPad + all gestures Finally after month of researching
 * Fully Functional QE/CI Enabled Graphics
@@ -43,7 +43,7 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 ####  HDMI (Nvidia Optimus is hardwire to HDMI)
 # Important info 
 #### when you switch SATA type to AHCI you might not be able to boot to windows again but do not worry here is a guide i found to switch without getting any issue https://support.thinkcritical.com/kb/articles/switch-windows-10-from-raid-ide-to-ahci
-#### OpenCore Guide https://1revenger1.gitbook.io/laptop-guide/
+#### OpenCore Guide https://laptop.dortania.ml/
 
 ## Do not forget to generate new Smbios with clover configurator and for OC use GenSMBIOS (MacBook pro 16,1)
 ## &#x1F34F;  UPDATES 14.04.2020-OpenCore
