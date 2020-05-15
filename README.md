@@ -46,6 +46,11 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 #### OpenCore Guide https://dortania.github.io/oc-laptop-guide/
 
 ## Do not forget to generate new Smbios with clover configurator and for OC use GenSMBIOS (MacBook pro 16,1)
+## &#x1F34F;  UPDATES 15.05.2020-OpenCore
+* OpenCore 0.5.8
+* Resources Folder 
+* OC-Config.plist
+* Kexts
 ## &#x1F34F;  UPDATES 14.04.2020-OpenCore
 * Add SSDT-USBX.aml for USB-Power because after i tested usb-stick 3.1 gen i noticed it did not worked so now all port work   normaly with super speed too 
 * OC-Config.plist
