@@ -34,6 +34,9 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 * Main → click on (calt+s) a new setting will appear to change SATA type to AHCI otherwise you will not be able to see you drive when installing  hackintosh
  # WIP
  ####  Bios Unlock to unlock CFG and have full control over your laptop (done without programmer)
+ 
+ https://github.com/SaeedHaidar/Acer-Nitro-5-AN517-51-Bios-Unlocking
+ 
  https://www.amazon.de/-/en/KeeYees-SOIC8-EEPROM-CH341A-Programmer/dp/B07SNTL5V6/ref=sr_1_2?dchild=1&keywords=ch341a&qid=1587467368&sr=8-2
  #### Wifi card replacment 
 http://en.techinfodepot.shoutwiki.com/wiki/Dell_Wireless_1820A_(DW1820A)
