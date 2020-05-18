@@ -24,7 +24,7 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 * Ethernet
 * Sidecar
 ##### Disabled Devices
-* Bluetooth
+* intel Bluetooth
 * GTX 1660Ti
 ##### BIOS Settings
 
