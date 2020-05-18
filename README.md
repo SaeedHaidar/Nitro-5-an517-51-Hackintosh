@@ -47,6 +47,10 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 #### OpenCore Guide https://dortania.github.io/oc-laptop-guide/
 
 ## Do not forget to generate new Smbios with clover configurator and for OC use GenSMBIOS (MacBook pro 16,1)
+## &#x1F34F;  UPDATES 18.05.2020-OpenCore
+* OC-DW1820a 
+* Kexts
+
 ## &#x1F34F;  UPDATES 15.05.2020-OpenCore
 * OpenCore 0.5.8
 * Resources Folder 
