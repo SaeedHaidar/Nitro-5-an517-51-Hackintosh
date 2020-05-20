@@ -49,7 +49,7 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 
 ## Do not forget to generate new Smbios with clover configurator and for OC use GenSMBIOS (MacBook pro 16,1)
 ## &#x1F34F;  UPDATES 20.05.2020-OpenCore
-* Fix USB Power Managment
+* Fix USB Power Managment SSDT
 ## &#x1F34F;  UPDATES 18.05.2020-OpenCore
 * OC-DW1820a 
 * Kexts
