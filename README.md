@@ -9,7 +9,7 @@
 Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x and 10.13.x)**
 
 ##### What's Working...
-* WiFi+Bluetooth http://en.techinfodepot.shoutwiki.com/wiki/Dell_Wireless_1820A_(DW1820A) + https://www.asus.com/Networking/USBBT400/ integrated BLT will not work both under windows and mac os that is why i bought a USB dongle too. USB dongle is plug-and-play no need for any Kexts
+* WiFi+Bluetooth + Airdrop + Handoff http://en.techinfodepot.shoutwiki.com/wiki/Dell_Wireless_1820A_(DW1820A) + https://www.asus.com/Networking/USBBT400/ integrated BLT will not work both under windows and mac os that is why i bought a USB dongle too. USB dongle is plug-and-play no need for any Kexts
 * Sleep (https://dortania.github.io/oc-laptop-guide/battery-power-management/correcting-sleep-problems.html) (Disabling Hibernation)
 * Power Managment is very stable most of the time cpu Fan will not load but it depends on what you are doing
 * TouchPad + all gestures Finally after month of researching
