@@ -10,7 +10,7 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 
 ##### What's Working...
 
-* WiFi + Bluetooth + Airdrop + Universal Clipboard + Handoff http://en.techinfodepot.shoutwiki.com/wiki/Dell_Wireless_1820A_(DW1820A) + https://www.asus.com/Networking/USBBT400/ integrated BLT will not work both under windows and mac os that is why i bought a USB dongle too. USB dongle is plug-and-play no need for any Kexts
+* WiFi + Bluetooth + Airdrop + Universal Clipboard + Handoff + Continuity Camera + iPhone Cellular Calls (tested) http://en.techinfodepot.shoutwiki.com/wiki/Dell_Wireless_1820A_(DW1820A) + https://www.asus.com/Networking/USBBT400/ integrated BLT will not work both under windows and mac os that is why i bought a USB dongle too. USB dongle is plug-and-play no need for any Kexts
 * Sleep (https://dortania.github.io/oc-laptop-guide/battery-power-management/correcting-sleep-problems.html) (Disabling Hibernation)
 * Power Managment is very stable most of the time cpu Fan will not load but it depends on what you are doing
 * TouchPad + all gestures Finally after month of researching
@@ -44,7 +44,8 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 ####  intel WiFi/Bluetooth not supported
 ####  HDMI (Nvidia Optimus is hardwire to HDMI)
 # Important info 
-#### when you switch SATA type to AHCI you might not be able to boot to windows again but do not worry here is a guide i found to switch without getting any issue https://support.thinkcritical.com/kb/articles/switch-windows-10-from-raid-ide-to-ahci
+#### When you switch SATA type to AHCI you might not be able to boot to windows again but do not worry here is a guide i found to switch without getting any issue https://support.thinkcritical.com/kb/articles/switch-windows-10-from-raid-ide-to-ahci
+#### If apple Continuity did not worked try logout and login on all your devices your hackintosh too 
 #### OpenCore Guide https://dortania.github.io/oc-laptop-guide/
 
 ## Do not forget to generate new Smbios with clover configurator and for OC use GenSMBIOS (MacBook pro 16,1)
