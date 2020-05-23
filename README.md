@@ -51,7 +51,7 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 
 ## Do not forget to generate new Smbios with clover configurator and for OC use GenSMBIOS (MacBook pro 16,1)
 ## &#x1F34F;  UPDATES 23.05.2020-OpenCore
-* Remove igfxpavp=1 and igfxfw=2 boot arg to fix a problem where gpu usage will get high when playing video on appstore 
+* Remove igfxpavp=1 and igfxfw=2 boot arg to fix an issue where gpu usage will stay high after playing video on appstore 
 ## &#x1F34F;  UPDATES 20.05.2020-OpenCore
 * Fix USB Power Managment SSDT-USBX
 ## &#x1F34F;  UPDATES 18.05.2020-OpenCore
