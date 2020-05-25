@@ -42,7 +42,7 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
  https://www.amazon.de/-/en/KeeYees-SOIC8-EEPROM-CH341A-Programmer/dp/B07SNTL5V6/ref=sr_1_2?dchild=1&keywords=ch341a&qid=1587467368&sr=8-2
  
 # Not Working
-####  intel WiFi/Bluetooth not supported
+####  intel WiFi/Bluetooth not supported (http://bbs.pcbeta.com/viewthread-1856465-1-1.html)
 ####  HDMI (Nvidia Optimus is hardwire to HDMI)
 # Important info 
 #### When you switch SATA type to AHCI you might not be able to boot to windows again but do not worry here is a guide i found to switch without getting any issue https://support.thinkcritical.com/kb/articles/switch-windows-10-from-raid-ide-to-ahci
