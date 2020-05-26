@@ -15,7 +15,7 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 * Sleep (https://dortania.github.io/oc-laptop-guide/battery-power-management/correcting-sleep-problems.html) (Disabling Hibernation)
 * Power Managment is very stable most of the time cpu Fan will not load but it depends on what you are doing
 * TouchPad + all gestures Finally after month of researching
-* intel bluetooth on AX200 160mhz card (for now)
+* intel bluetooth on AX200 160mhz card
 * Fully Functional QE/CI Enabled Graphics
 * Display brightness with hot keys
 * FaceTime, Messages, etc...
