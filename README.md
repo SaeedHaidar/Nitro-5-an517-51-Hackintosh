@@ -15,6 +15,7 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 * Sleep (https://dortania.github.io/oc-laptop-guide/battery-power-management/correcting-sleep-problems.html) (Disabling Hibernation)
 * Power Managment is very stable most of the time cpu Fan will not load but it depends on what you are doing
 * TouchPad + all gestures Finally after month of researching
+* intel bluetooth on AX200 160mhz card (for now)
 * Fully Functional QE/CI Enabled Graphics
 * Display brightness with hot keys
 * FaceTime, Messages, etc...
@@ -40,9 +41,10 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
  https://github.com/SaeedHaidar/Acer-Nitro-5-AN517-51-Bios-Unlocking
  
  https://www.amazon.de/-/en/KeeYees-SOIC8-EEPROM-CH341A-Programmer/dp/B07SNTL5V6/ref=sr_1_2?dchild=1&keywords=ch341a&qid=1587467368&sr=8-2
- 
+# partially working
+#### intel wifi (still no internet but soon)
+![](/images/14.png)
 # Not Working
-####  intel WiFi/Bluetooth not supported (http://bbs.pcbeta.com/viewthread-1856465-1-1.html)
 ####  HDMI (Nvidia Optimus is hardwire to HDMI)
 # Important info 
 #### When you switch SATA type to AHCI you might not be able to boot to windows again but do not worry here is a guide i found to switch without getting any issue https://support.thinkcritical.com/kb/articles/switch-windows-10-from-raid-ide-to-ahci
@@ -50,6 +52,8 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 #### OpenCore Guide https://dortania.github.io/oc-laptop-guide/
 
 ## Do not forget to generate new Smbios with clover configurator and for OC use GenSMBIOS (MacBook pro 16,1)
+## &#x1F34F;  UPDATES 23.05.2020-OpenCore
+* Add kext for intel Bluetooth and wifi you can now search but still no internet for now i will only add kext to get  bluetooth to work intel-Bluetooth
 ## &#x1F34F;  UPDATES 23.05.2020-OpenCore
 * Remove igfxpavp=1 and igfxfw=2 boot arg to fix an issue where gpu usage will stay high after playing video on appstore 
 ## &#x1F34F;  UPDATES 20.05.2020-OpenCore
