@@ -52,7 +52,7 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 #### OpenCore Guide https://dortania.github.io/oc-laptop-guide/
 
 ## Do not forget to generate new Smbios with clover configurator and for OC use GenSMBIOS (MacBook pro 16,1)
-## &#x1F34F;  UPDATES 23.05.2020-OpenCore
+## &#x1F34F;  UPDATES 26.05.2020-OpenCore
 * Add kext for intel Bluetooth and wifi you can now search but still no internet for now i will only add kext to get  bluetooth to work intel-Bluetooth
 ## &#x1F34F;  UPDATES 23.05.2020-OpenCore
 * Remove igfxpavp=1 and igfxfw=2 boot arg to fix an issue where gpu usage will stay high after playing video on appstore 
