@@ -11,7 +11,7 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 
 ##### What's Working...
 
-* WiFi + Bluetooth + Airdrop + Universal Clipboard + Handoff + Continuity Camera + iPhone Cellular Calls (tested) http://en.techinfodepot.shoutwiki.com/wiki/Dell_Wireless_1820A_(DW1820A) + https://www.asus.com/Networking/USBBT400/ integrated BLT will not work both under windows and mac os that is why i bought a USB dongle too. USB dongle is plug-and-play no need for any Kexts
+* WiFi + Bluetooth + Airdrop + Universal Clipboard + Handoff + Continuity Camera + iPhone Cellular Calls (tested)
 * Sleep (https://dortania.github.io/oc-laptop-guide/battery-power-management/correcting-sleep-problems.html) (Disabling Hibernation)
 * Power Managment is very stable most of the time cpu Fan will not load but it depends on what you are doing
 * TouchPad + all gestures Finally after month of researching
@@ -52,6 +52,9 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 #### OpenCore Guide https://dortania.github.io/oc-laptop-guide/
 
 ## Do not forget to generate new Smbios with clover configurator and for OC use GenSMBIOS (MacBook pro 16,1)
+## &#x1F34F;  UPDATES 09.06.2020-OpenCore
+* Bluetooth has been fixed zou need to pin masking https://osxlatitude.com/forums/topic/11540-dw1820a-the-general-troubleshooting-thread/?do=findComment&comment=91179
+and do not forget to add the kexts too 
 ## &#x1F34F;  UPDATES 26.05.2020-OpenCore
 * Add kext for intel Bluetooth for WiFi you can now search but still no internet so for now i will only add kext to get  bluetooth to work intel-Bluetooth
 ## &#x1F34F;  UPDATES 23.05.2020-OpenCore
