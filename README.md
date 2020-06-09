@@ -11,8 +11,8 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 
 ##### What's Working...
 
-* WiFi + Bluetooth + Airdrop + Universal Clipboard + Handoff + Continuity Camera + iPhone Cellular Calls (tested)
 * Sleep (https://dortania.github.io/oc-laptop-guide/battery-power-management/correcting-sleep-problems.html) (Disabling Hibernation)
+* WiFi + Bluetooth + Airdrop + Universal Clipboard + Handoff + Continuity Camera + iPhone Cellular Calls (tested)
 * Power Managment is very stable most of the time cpu Fan will not load but it depends on what you are doing
 * TouchPad + all gestures Finally after month of researching
 * intel bluetooth on AX200 160mhz card
