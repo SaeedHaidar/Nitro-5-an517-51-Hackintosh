@@ -50,6 +50,7 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 #### When you switch SATA type to AHCI you might not be able to boot to windows again but do not worry here is a guide i found to switch without getting any issue https://support.thinkcritical.com/kb/articles/switch-windows-10-from-raid-ide-to-ahci
 #### If apple Continuity did not worked try logout and login again on all your devices your hackintosh too 
 #### OpenCore Guide https://dortania.github.io/oc-laptop-guide/
+#### To get right click to work go to touchpad settings in (Secondary click) choose (click in bottom right corner)
 
 ## Do not forget to generate new Smbios with clover configurator and for OC use GenSMBIOS (MacBook pro 16,1)
 ## &#x1F34F;  UPDATES 09.06.2020-OpenCore
