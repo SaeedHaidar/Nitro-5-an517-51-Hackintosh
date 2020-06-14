@@ -12,10 +12,10 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 ##### What's Working...
 
 * Sleep (https://dortania.github.io/oc-laptop-guide/battery-power-management/correcting-sleep-problems.html) (Disabling Hibernation)
-* WiFi + Bluetooth + Airdrop + Universal Clipboard + Handoff + Continuity Camera + iPhone Cellular Calls (tested)
+* WiFi + Bluetooth + Airdrop + Universal Clipboard + Handoff + Continuity Camera + iPhone Cellular Calls (DW1820a)
 * Power Managment is very stable most of the time cpu Fan will not load but it depends on what you are doing
 * TouchPad + all gestures Finally after month of researching
-* intel bluetooth on AX200 160mhz card
+* intel bluetooth and WiFi on AX200 card
 * Fully Functional QE/CI Enabled Graphics
 * Display brightness with hot keys
 * FaceTime, Messages, etc...
@@ -41,9 +41,9 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
  https://github.com/SaeedHaidar/Acer-Nitro-5-AN517-51-Bios-Unlocking
  
  https://www.amazon.de/-/en/KeeYees-SOIC8-EEPROM-CH341A-Programmer/dp/B07SNTL5V6/ref=sr_1_2?dchild=1&keywords=ch341a&qid=1587467368&sr=8-2
-# partially working
+# Working but still in beta
 #### intel wifi (still no internet but soon)
-![](/images/14.png)
+![](/images/15.png)
 # Not Working
 ####  HDMI (Nvidia Optimus is hardwire to HDMI)
 # Important info 
@@ -53,6 +53,8 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 #### To get right click to work go to touchpad settings in (Secondary click) choose (click in bottom right corner)
 
 ## Do not forget to generate new Smbios with clover configurator and for OC use GenSMBIOS (MacBook pro 16,1)
+## &#x1F34F;   UPDATES 14.06.2020-OpenCore
+* Add itlwmx.kext to get Intel-AX200 wifi to work but still in beta it will take time to improve (AX200 will work as Ethernet) read here for more info https://github.com/zxystd/itlwm
 ## &#x1F34F;   UPDATES 09.06.2020-OpenCore
 * Bluetooth has been fixed you need to pin-masking https://osxlatitude.com/forums/topic/11540-dw1820a-the-general-troubleshooting-thread/?do=findComment&comment=91179
 and do not forget to add the kexts too 
