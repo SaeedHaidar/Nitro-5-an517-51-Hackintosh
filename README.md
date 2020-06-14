@@ -42,7 +42,7 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
  
  https://www.amazon.de/-/en/KeeYees-SOIC8-EEPROM-CH341A-Programmer/dp/B07SNTL5V6/ref=sr_1_2?dchild=1&keywords=ch341a&qid=1587467368&sr=8-2
 # Working but still in beta
-#### intel wifi
+#### Intel-AX200 wifi
 ![](/images/15.png)
 # Not Working
 ####  HDMI (Nvidia Optimus is hardwire to HDMI)
