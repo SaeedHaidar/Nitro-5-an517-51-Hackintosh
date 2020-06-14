@@ -15,7 +15,7 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 * WiFi + Bluetooth + Airdrop + Universal Clipboard + Handoff + Continuity Camera + iPhone Cellular Calls (DW1820a)
 * Power Managment is very stable most of the time cpu Fan will not load but it depends on what you are doing
 * TouchPad + all gestures Finally after month of researching
-* intel bluetooth and WiFi on AX200 card
+* intel bluetooth and WiFi on AX200 card (you will need to change add your ssid and password manually open the kext and find info.plist in WiFiConfig section)
 * Fully Functional QE/CI Enabled Graphics
 * Display brightness with hot keys
 * FaceTime, Messages, etc...
