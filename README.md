@@ -10,7 +10,7 @@
 Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x and 10.13.x)**
 
 ##### What's Working...
-* intel bluetooth and WiFi on AX200 card (you will need to change add your ssid and password manually open the kext file and search in info.plist for WiFiConfig)
+* intel bluetooth and WiFi on AX200 card ( you will need to add your ssid and password manually open the kext folder in info.plist (password and User-name) )
 * Sleep (https://dortania.github.io/oc-laptop-guide/battery-power-management/correcting-sleep-problems.html) (Disabling Hibernation)
 * WiFi + Bluetooth + Airdrop + Universal Clipboard + Handoff + Continuity Camera + iPhone Cellular Calls (DW1820a)
 * Power Managment is very stable most of the time cpu Fan will not load but it depends on what you are doing
