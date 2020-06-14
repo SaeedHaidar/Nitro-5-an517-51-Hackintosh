@@ -54,7 +54,7 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 
 ## Do not forget to generate new Smbios with clover configurator and for OC use GenSMBIOS (MacBook pro 16,1)
 ## &#x1F34F;   UPDATES 14.06.2020-OpenCore
-* Add itlwmx.kext to get Intel-AX200 wifi to work but still in beta it will take time to improve (AX200 will work as Ethernet) read here for more info https://github.com/zxystd/itlwm
+* Add itlwmx.kext to get Intel-AX200 wifi to work but it's still in beta it will take time to improve (AX200 will work as Ethernet) read here for more info https://github.com/zxystd/itlwm
 ## &#x1F34F;   UPDATES 09.06.2020-OpenCore
 * Bluetooth has been fixed you need to pin-masking https://osxlatitude.com/forums/topic/11540-dw1820a-the-general-troubleshooting-thread/?do=findComment&comment=91179
 and do not forget to add the kexts too 
