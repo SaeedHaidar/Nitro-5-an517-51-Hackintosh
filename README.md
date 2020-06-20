@@ -50,6 +50,7 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 #### If apple Continuity did not worked try logout and login again on all your devices your hackintosh too 
 #### OpenCore Guide https://dortania.github.io/oc-laptop-guide/
 #### To get right click to work go to touchpad settings in (Secondary click) choose (click in bottom right corner)
+#### You need to disable SystemProfilerMemoryFixup.kext if you wanna enter recovery mode or you will get kernel panic
 
 ## Do not forget to generate new Smbios with clover configurator and for OC use GenSMBIOS (MacBook pro 16,1)
 ## &#x1F34F;   UPDATES 14.06.2020-OpenCore
