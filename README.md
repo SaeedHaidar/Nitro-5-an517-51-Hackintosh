@@ -11,7 +11,7 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 
 ##### What's Working...
 * intel bluetooth and WiFi on AX200 card ( you will need to add your ssid and password manually open the kext folder in info.plist (password and User-name) )
-* Sleep (https://dortania.github.io/oc-laptop-guide/battery-power-management/correcting-sleep-problems.html) (Disabling Hibernation)
+* Sleep (https://dortania.github.io/OpenCore-Post-Install/universal/sleep.html) (Preparations)
 * WiFi + Bluetooth + Airdrop + Universal Clipboard + Handoff + Continuity Camera + iPhone Cellular Calls (DW1820a)
 * Power Managment is very stable most of the time cpu Fan will not load but it depends on what you are doing
 * TouchPad + all gestures Finally after month of researching
@@ -47,7 +47,7 @@ Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x
 # Important info 
 #### When you switch SATA type to AHCI you might not be able to boot to windows again but do not worry here is a guide i found to switch without getting any issue https://support.thinkcritical.com/kb/articles/switch-windows-10-from-raid-ide-to-ahci
 #### If apple Continuity did not worked try logout and login again on all your devices your hackintosh too 
-#### OpenCore Guide https://dortania.github.io/oc-laptop-guide/
+#### OpenCore Guide https://dortania.github.io/OpenCore-Install-Guide/
 #### To get right click to work go to touchpad settings in (Secondary click) choose (click in bottom right corner)
 #### You need to disable SystemProfilerMemoryFixup.kext if you wanna enter recovery mode or you will get kernel panic
 
