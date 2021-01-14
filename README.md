@@ -1,126 +1,334 @@
-## Nitro-5-an517-51-Hackintosh
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
 
-![](/images/main1.png)
-![](/images/11.png)
-![](/images/File1.png)
-![](/images/File2.png)
-![](/images/12.png)
+<body>
 
+<div>
 
-Supports MacOS 10.15.x, **tested only on catalina but it should work on (10.14.x and 10.13.x)**
+<h2>Nitro-5-an517-51-Hackintosh</h2>
 
-##### What's Working...
-* intel bluetooth and WiFi on AX200 card ( you will need to add your ssid and password manually open the kext folder in info.plist (password and User-name) )
-* Sleep (https://dortania.github.io/OpenCore-Post-Install/universal/sleep.html) (Preparations)
-* WiFi + Bluetooth + Airdrop + Universal Clipboard + Handoff + Continuity Camera + iPhone Cellular Calls (DW1820a)
-* Power Managment is very stable most of the time cpu Fan will not load but it depends on what you are doing
-* TouchPad + all gestures Finally after month of researching
-* Fully Functional QE/CI Enabled Graphics
-* Display brightness with hot keys
-* FaceTime, Messages, etc...
-* iGPU with disabled dGPU
-* Audio & headphone jack
-* Battery Management
-* All USB ports
-* WebCam
-* Ethernet
-* Sidecar
-##### Disabled Devices
-* GTX 1660Ti
-##### BIOS Settings
-
-* Security → Set supervisor password (to disable secure boot)
-* Security → Password on boot → Disable
-* Boot → Secure Boot → Disable
-* Main → click on (calt+s) a new setting will appear to change SATA type to AHCI otherwise you will not be able to see you drive when installing  hackintosh
- # WIP
- ####  Bios Unlock to unlock CFG and have full control over your laptop (done without programmer)
- 
- https://github.com/SaeedHaidar/Acer-Nitro-5-AN517-51-Bios-Unlocking
- 
- https://www.amazon.de/-/en/KeeYees-SOIC8-EEPROM-CH341A-Programmer/dp/B07SNTL5V6/ref=sr_1_2?dchild=1&keywords=ch341a&qid=1587467368&sr=8-2
-# Working but still in beta
-#### Intel-AX200 wifi
-![](/images/16.png)
-# Not Working
-####  HDMI (Nvidia Optimus is hardwire to HDMI)
-# Important info 
-#### When you switch SATA type to AHCI you might not be able to boot to windows again but do not worry here is a guide i found to switch without getting any issue https://support.thinkcritical.com/kb/articles/switch-windows-10-from-raid-ide-to-ahci
-#### If apple Continuity did not worked try logout and login again on all your devices your hackintosh too 
-#### OpenCore Guide https://dortania.github.io/OpenCore-Install-Guide/
-#### To get right click to work go to touchpad settings in (Secondary click) choose (click in bottom right corner)
-#### You need to disable SystemProfilerMemoryFixup.kext if you wanna enter recovery mode or you will get kernel panic
-
-## Do not forget to generate new Smbios with clover configurator and for OC use GenSMBIOS (MacBook pro 16,1)
-## &#x1F34F;   UPDATES 14.06.2020-OpenCore
-* Add itlwmx.kext to get Intel-AX200 wifi to work but it's still in beta it will take time to improve (AX200 will work as Ethernet) read here for more info https://github.com/zxystd/itlwm
-## &#x1F34F;   UPDATES 09.06.2020-OpenCore
-* Bluetooth has been fixed you need to pin-masking https://osxlatitude.com/forums/topic/11540-dw1820a-the-general-troubleshooting-thread/?do=findComment&comment=91179
-and do not forget to add the kexts too 
-## &#x1F34F;   UPDATES 26.05.2020-OpenCore
-* Add kext for intel Bluetooth for WiFi you can now search but still no internet so for now i will only add kext to get  bluetooth to work intel-Bluetooth
-## &#x1F34F;   UPDATES 23.05.2020-OpenCore
-* Remove igfxpavp=1 and igfxfw=2 boot arg to fix an issue where gpu usage will stay high after playing video on appstore 
-## &#x1F34F;   UPDATES 20.05.2020-OpenCore
-* Fix USB Power Managment SSDT-USBX
-## &#x1F34F;   UPDATES 18.05.2020-OpenCore
-* OC-DW1820a 
-* Kexts
-
-## &#x1F34F;   UPDATES 15.05.2020-OpenCore
-* OpenCore 0.5.8
-* Resources Folder 
-* OC-Config.plist
-* Kexts
-## &#x1F34F;   UPDATES 14.04.2020-OpenCore
-* Add SSDT-USBX.aml for USB-Power because after i tested usb-stick 3.1 gen i noticed it did not worked so now all port work   normaly with super speed too 
-* OC-Config.plist
-## &#x1F34F;   UPDATES 12.04.2020-OpenCore
-* Fix an issue when usb is pluged-in the laptop will not sleep with SSDT-GPRW 
-* Replace SSDT-NoHybGfx with SSDT-NDGP_OFF to make sleep faster 
-* OC-Config.plist
-
-## &#x1F34F;   UPDATES 11.04.2020-OpenCore
-* Replace DSDT with SSDT-BRKEY and SSDT-I2C-TPAD because placing DSDT will cause conflict with other patches
-* Add NVMeFix.kext to get better power managment for NVMe
-* OC-Config.plist
-
-## &#x1F34F;   UPDATES 10.04.2020-OpenCore
-* Brightness with native hot keys
-* TouchPad has been fixed 
-* OC-Config.plist
-* ACPI Patches
-
-## &#x1F34F;   UPDATES 07.04.2020-OpenCore
-* better way to enable Apple ALC
-* CPUFriend-1.2.0-DevBuild
-* WhateverGreen-1.3.8
-* Resources Folder
-* VirtualSMC-1.1.2
-* AppleALC-1.4.8
-* OC-Config.plist
-* Lilu-1.4.3
+</div>
 
 
-## &#x1F34F;   UPDATES 05.04.2020
-* Add SystemProfilerMemoryFixup.kext to show memory section in about this Mac
-* Add Theme to OpenCore Bootloader
-* OC-Config.plist
-* OpenCore 0.5.7
-* Clover 5108
-* Some missing parts :
-* SSDT-DMAC
-* SSDT-SBUS
-* SSDT-XSPI
-* SSDT-MCHC
-* SSDT-PMC
-* SSDT-MEM2
-* SSDT-PPMC
-* SSDT-SBUS-MCHC
-* SSDT-HPET.aml
+<details>  
+<summary><strong>Images</strong></summary>
+<br>
 
-## Bios Version 
-1.28 https://www.acer.com/ac/en/US/content/support-product/7966?b=1
+<img width="70%" src="images/main1.png" alt="main">
+
+<br>
+
+<img width="70%" src="images/File1.png" alt="geekbench_score">
+
+<br>
 
 
+<img width="70%" src="images/File2.png" alt="Opencl_score">
+
+<br>
+
+
+
+</details>
+
+
+<details>  
+<summary><strong>What's working </strong></summary>
+<br>
+<table border="1px">
+
+<tr>
+<td>
+<p> WiFi + Bluetooth + Airdrop + Universal Clipboard + Handoff + Continuity Camera + iPhone Cellular Calls (DW1820a) </p>
+</td>
+
+</tr>
+
+<tr>
+<td>
+<p>Power Managment is very stable most of the time cpu Fan will not load but it depends on what you are doing </p>
+</td>
+</tr>
+
+<tr>
+<td>
+<p>TouchPad + all gestures Finally after month of researching </p>
+</td>
+</tr>
+
+<tr>
+<td>
+<p> Fully Functional QE/CI Enabled Graphics </p>
+</td>
+</tr>
+
+<tr>
+<td>
+<p> intel bluetooth and WiFi on AX200 card </p>
+</td>
+</tr>
+
+<tr>
+<td>
+<p> Display brightness with hot keys </p>
+</td>
+</tr>
+
+<tr>
+<td>
+<p> FaceTime, Messages, etc... </p>
+</td>
+</tr>
+
+<tr>
+<td>
+<p> iGPU with disabled dGPU </p>
+</td>
+</tr>
+
+<tr>
+<td>
+<p>Audio & headphone jack </p>
+</td>
+</tr>
+
+<tr>
+<td>
+<p>Battery Management  </p>
+</td>
+</tr>
+
+<tr>
+<td>
+<p> All USB ports</p>
+</td>
+</tr>
+
+<tr>
+<td>
+<p>WebCam  </p>
+</td>
+</tr>
+
+<tr>
+<td>
+<p> Ethernet </p>
+</td>
+</tr>
+
+<tr>
+<td>
+<p>Sidecar</p>
+</td>
+</tr>
+
+<tr>
+<td>
+<p> <a style="text-decoration:none" href="https://dortania.github.io/OpenCore-Post-Install/universal/sleep.html">Sleep</a></p>
+</td>
+</tr>
+
+</table>
+</details>
+
+<details>
+
+<summary><strong>Disabled Devices </strong></summary>
+<br>
+
+<p>GTX 1660Ti </p>
+
+
+</details>
+
+<details>
+
+<summary><strong>Bios Settings </strong></summary>
+<br>
+
+<table border="1px">
+<tr>
+<td>
+<p>Main → click on (calt+s) a new setting will appear to change SATA type to AHCI otherwise you will not be able to see you drive when installing hackintosh </p>
+</td>
+</tr>
+
+
+<tr>
+<td>
+<p>Security → Set supervisor password (to disable secure boot)</p>
+</td>
+</tr>
+
+
+<tr>
+<td>
+<p>Security → Password on boot → Disable</p>
+</td>
+</tr>
+
+
+<tr>
+<td>
+<p>Boot → Secure Boot → Disable</p>
+</td>
+</tr>
+
+</table>
+
+</details>
+
+<details>
+
+<summary><strong>Not Working </strong></summary>
+<br>
+
+
+
+<p>HDMI (Nvidia Optimus is hardwire to HDMI)</p>
+
+
+
+</details>
+
+<details>
+<summary><strong>Info</strong></summary>
+<br>
+
+<table border="1px">
+<tr>
+<td>
+<p>When you switch SATA type to AHCI you might not be able to boot to windows again but do not worry here is a guide i found to switch without getting any issue <a href="https://support.thinkcritical.com/kb/articles/switch-windows-10-from-raid-ide-to-ahci">Here</a></p>
+</td>
+</tr>
+
+
+<tr>
+<td>
+<p>You need to disable SystemProfilerMemoryFixup.kext if you wanna enter recovery mode or you will get kernel panic</p>
+</td>
+</tr>
+
+
+<tr>
+<td>
+<p>To get right click to work go to touchpad settings in (Secondary click) choose (click in bottom right corner)</p>
+</td>
+</tr>
+
+
+<tr>
+<td>
+<p>If apple Continuity did not worked try logout and login again on all your devices your hackintosh too</p>
+</td>
+</tr>
+
+<tr>
+<td>
+<p>OpenCore Guide <a href="https://dortania.github.io/OpenCore-Install-Guide/">Here</a></p>
+</td>
+</tr>
+
+</table>
+
+</details>
+
+
+
+<details>
+
+<summary><strong>Updates</strong></summary>
+<br>
+
+<table border="1px"> 
+   
+<tr>
+<td>
+<p> UPDATES 14.06.2020-OpenCore <br><br> Add itlwmx.kext to get Intel-AX200 wifi to work but it's still in beta it will take time to improve (AX200 will work as Ethernet) read here for more info <a href="https://github.com/zxystd/itlwm">Here</a></p>
+</td>
+</tr>
+
+
+<tr>
+<td>
+<p> UPDATES 09.06.2020-OpenCore <br><br> Bluetooth has been fixed you need to pin-masking <a href="https://osxlatitude.com/forums/topic/11540-dw1820a-the-general-troubleshooting-thread/?do=findComment&comment=91179">Here</a>  </p>
+</td>
+</tr>
+
+
+<tr>
+<td>
+<p> UPDATES 26.05.2020-OpenCore <br><br> Add kext for intel Bluetooth for WiFi you can now search but still no internet so for now i will only add kext to get bluetooth to work intel-Bluetooth </p>
+</td>
+</tr>
+
+
+<tr>
+<td>
+<p> UPDATES 23.05.2020-OpenCore <br><br> Remove igfxpavp=1 and igfxfw=2 boot arg to fix an issue where gpu usage will stay high after playing video on appstore  </p>
+</td>
+</tr>
+
+<tr>
+<td>
+<p> UPDATES 20.05.2020-OpenCore <br><br> Fix USB Power Managment SSDT-USBX</p>
+</td>
+</tr>
+
+<tr>
+<td>
+<p>UPDATES 18.05.2020-OpenCore <br><br> OC-DW1820a <br> Kexts</p>
+</td>
+</tr>
+
+<tr>
+<td>
+<p> UPDATES 15.05.2020-OpenCore <br><br>  OpenCore 0.5.8 <br> Resources Folder <br> OC-Config.plist <br> Kexts </p>
+</td>
+</tr>
+
+<tr>
+<td>
+<p> UPDATES 14.04.2020-OpenCore <br><br>Add SSDT-USBX.aml for USB-Power because after i tested usb-stick 3.1 gen i noticed it did not worked so now all port work normaly with super speed too <br> OC-Config.plist </p>
+</td>
+</tr>
+
+<tr>
+<td>
+<p> UPDATES 12.04.2020-OpenCore <br><br> Fix an issue when usb is pluged-in the laptop will not sleep with SSDT-GPRW <br> Replace SSDT-NoHybGfx with SSDT-NDGP_OFF to make sleep faster <br> OC-Config.plist </p>
+</td>
+</tr>
+
+<tr>
+<td>
+<p> UPDATES 11.04.2020-OpenCore <br><br> Replace DSDT with SSDT-BRKEY and SSDT-I2C-TPAD because placing DSDT will cause conflict with other patches <br>  Add NVMeFix.kext to get better power managment for NVMe <br> OC-Config.plist  </p>
+</td>
+</tr>
+
+<tr>
+<td>
+<p> UPDATES 10.04.2020-OpenCore <br><br>Brightness with native hot keys <br> TouchPad has been fixed <br> OC-Config.plist <br> ACPI Patches </p>
+</td>
+</tr>
+
+<tr>
+<td>
+<p> UPDATES 07.04.2020-OpenCore <br><br> better way to enable Apple ALC <br> CPUFriend-1.2.0-DevBuild <br>  WhateverGreen-1.3.8 <br> Resources Folder <br> VirtualSMC-1.1.2 <br> AppleALC-1.4.8 <br> OC-Config.plist <br> Lilu-1.4.3  </p>
+</td>
+</tr>
+
+
+</table>
+
+</details>
+
+
+</body>
+
+</html> 
 
