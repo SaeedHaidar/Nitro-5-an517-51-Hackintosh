@@ -129,7 +129,7 @@
 
 <tr>
 <td>
-<p> <a style="text-decoration:none" href="https://dortania.github.io/OpenCore-Post-Install/universal/sleep.html">Sleep (Preparations section)</a></p>
+<p> <a style="text-decoration:none" href="https://dortania.github.io/OpenCore-Post-Install/universal/sleep.html#preparations">Sleep (Preparations section)</a></p>
 </td>
 </tr>
 
